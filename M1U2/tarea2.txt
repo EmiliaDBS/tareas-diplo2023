@@ -1,0 +1,1 @@
+Este archivo corresponde a la tarea de la clase 2: "GIThub", del módulo 1 de la Diplomatura en programación web full stack con React JS.
