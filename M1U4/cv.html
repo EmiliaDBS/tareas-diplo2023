@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV EDBS</title>
+</head>
+<body>
+    <header>
+        <img src="img/cv.jpg" alt="Foto CV" width="100%" height="100%"/>
+        <h1>Ma. Emilia De Bernardo Saralegui</h1>
+        <h2>Nacionalidad: Argentina</h2>
+    </header>
+
+    <section id="experiencia">
+        <h3>Experiencia Laboral</h3>
+        <ul class="listexperiencias">
+            <li>
+                <h4>Experiencia 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod dolor pariatur, dignissimos voluptates asperiores rem itaque quasi? Ut beatae nobis amet recusandae ab quod quia officiis, corporis deserunt cum.</p>
+            </li>
+            <li>
+                <h4>Experiencia 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod dolor pariatur, dignissimos voluptates asperiores rem itaque quasi? Ut beatae nobis amet recusandae ab quod quia officiis, corporis deserunt cum.</p>
+            </li>
+            <li>
+                <h4>Experiencia 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod dolor pariatur, dignissimos voluptates asperiores rem itaque quasi? Ut beatae nobis amet recusandae ab quod quia officiis, corporis deserunt cum.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h3>Portfolio</h3>
+        <table style="text-align: center;">
+            <tr>
+                <td>
+                    <a href="https://www.campushomovidens.com.ar/" target="_blank">
+                        <img src="img/entropia.jpg" alt="Campus Entropia" width="150px" height="150px"/>
+                        <br>
+                        <h5>Campus ENTROPIA</h5>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://abgra.org.ar/" target="_blank">
+                        <img src="img/abgra.jpg" alt="Web ABGRA" width="150px" height="150px"/>
+                        <br>
+                        <h5>Web ABGRA</h5>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://sceu.frba.utn.edu.ar/dav/" target="_blank">
+                        <img src="img/dav.png" alt="Web DAV" width="150px" height="150px"/>
+                        <br>
+                        <h5>Web DAV</h5>
+                    </a>
+                </td>
+            </tr>
+        </table>          
+    </section>      
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje"></textarea><br />
+            <input type="submit" value="Enviar mensaje" />
+          </form>
+    </section>
+
+    <footer>
+        <h6>Año 2023 | Design:<a href="#" target="_blank">EDBS</a></h6> 
+    </footer>
+</body>
+</html>

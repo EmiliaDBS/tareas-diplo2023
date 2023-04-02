@@ -1,0 +1,79 @@
+h1{
+    background-color: blue;
+    color:rgb(255, 255, 255); /*color títulos*/
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lato;
+}
+
+h2{
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    font-family: Lato;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    font-family: Lato;
+
+}
+
+h4{ font-size: 20px;
+    color: #000;
+    font-family: Lato;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px; /*Interlineado*/
+}
+
+.listexperiencias{
+    border: 3px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+}
+
+table{
+        width: 100%;
+        border: none;
+        padding: 15px;
+}
+
+a{
+    font-size: 14px;
+    font-family: lato;
+    color: blue;
+}
+
+#contacto{
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 14px;
+    font-family: lato;
+    line-height: 25px; /*Interlineado*/
+    vertical-align: middle;
+}
+
+footer{
+    background-color: darkcyan;
+    color: white;
+    margin-bottom: 0px;
+}
+
+h6{
+    font-size: 12px;
+    font-family: lato;
+    text-align: center;
+}
+
